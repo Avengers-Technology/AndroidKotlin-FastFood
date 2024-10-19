@@ -8,11 +8,8 @@ import com.example.smeb9716.fragment.BookmarkFragment
 import com.example.smeb9716.fragment.FavoriteFragment
 import com.example.smeb9716.fragment.HomeFragment
 import com.example.smeb9716.fragment.ProfileFragment
-import com.example.smeb9716.utils.ProgressUtils
-
 
 class MainActivity : BaseActivity<ActivityMainBinding>() {
-    private lateinit var demoDialog: BaseDialog
 
     override fun getViewBinding(): ActivityMainBinding {
         return ActivityMainBinding.inflate(layoutInflater)
@@ -25,16 +22,6 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
         //Set up BottomNavigationView
         binding.bottomNavigation.itemIconTintList = null
 
-
-        // Demo dialog
-        demoDialog = BaseDialog(this) {
-            ProgressUtils.stopProgress(binding.progressBar, this@MainActivity)
-            demoDialog.dismiss()
-        }
-        demoDialog.show()
-
-        // Demo Loading...
-        ProgressUtils.startProgress(binding.progressBar, this@MainActivity)
     }
 
     override fun initEvents() {

@@ -106,7 +106,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/montserrat_regular"
             android:text="@string/register"
-            android:textColor="@color/primary"
+            android:textColor="@color/red600"
             android:textSize="@dimen/text_size_16" />
 
     </LinearLayout>

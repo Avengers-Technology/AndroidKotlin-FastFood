@@ -72,4 +72,7 @@ dependencies {
 
     // Fragment
     implementation(libs.fragment)
+
+    // ImageSlideShow: https://github.com/denzcoskun/ImageSlideshow
+    implementation(libs.imageslideshow)
 }

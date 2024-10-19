@@ -13,14 +13,16 @@ class RegisterAct : BaseActivity<ActRegisterBinding>() {
     }
 
     override fun initViews() {
-        // No views to initialize for now
+
     }
 
     override fun initEvents() {
-        // No events to initialize for now
+        binding.tvSignIn.setOnClickListener {
+            finish()
+        }
     }
 
     override fun initObservers() {
-        // No observers to initialize for now
+
     }
 }

@@ -25,4 +25,10 @@
     <string name="privacy">Privacy</string>
     <string name="logout">Logout</string>
 
+    <string name="slider_1">Welcome to Fast Food Delight!</string>
+    <string name="slider_2">At Fast Food Delight.</string>
+    <string name="slider_3">Come to Fast Food Delight to experience.</string>
+    <string name="slider_4">Fast Food Delight - the perfect destination.</string>
+    <string name="slider_5">With fresh ingredients and special recipes.</string>
+
 </resources>
