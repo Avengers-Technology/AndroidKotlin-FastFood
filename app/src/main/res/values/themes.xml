@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BaseAndroidKotlin" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.BaseAndroidKotlin" parent="Base.Theme.BaseAndroidKotlin" />
+
+    <style name="StyleBottomNavigationViewInactive">
+        <item name="android:fontFamily">@font/montserrat_light</item>
+        <item name="android:color">#AEAEAE</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+    <style name="StyleBottomNavigationViewActive">
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:color">@color/white</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+</resources>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">FastFood</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+
+    <string name="home">Home</string>
+    <string name="favorite">Favorite</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="profile">Profile</string>
+    <string name="login">Login</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="register">Register</string>
+    <string name="have_an_account">Don\'t have an account? </string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="re_enter_password">Re-enter password</string>
+    <string name="have_you_created_an_account_yet">Have you created an account yet? </string>
+    <string name="read">Read</string>
+    <string name="un_read">Unread</string>
+    <string name="notification">Notification</string>
+    <string name="change_password">Change Password</string>
+    <string name="help"><![CDATA[Help & Support]]></string>
+    <string name="privacy">Privacy</string>
+    <string name="logout">Logout</string>
+
+</resources>
