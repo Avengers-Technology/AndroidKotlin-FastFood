@@ -11,7 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
 object ApiClient {
-    private const val BASE_URL = "https://jsonplaceholder.typicode.com/"
+    private const val BASE_URL = "https://192.168.56.2:8080/"
     private const val KEY_AUTHORIZATION = "Authorization"
     private const val TOKEN_PREFIX = "Bearer "
     private var retrofit: Retrofit? = null

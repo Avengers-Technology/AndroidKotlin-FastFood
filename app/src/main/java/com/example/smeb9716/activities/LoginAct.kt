@@ -1,21 +1,25 @@
 package com.example.smeb9716.activities
 
 import android.content.Intent
+import androidx.activity.viewModels
 import com.example.smeb9716.MainActivity
 import com.example.smeb9716.databinding.ActLoginBinding
 import com.example.smeb9716.foundation.BaseActivity
+import com.example.smeb9716.viewmodel.LoginViewModel
 
 class LoginAct : BaseActivity<ActLoginBinding>() {
     companion object {
         private const val TAG = "LoginAct"
     }
 
+    private val loginViewModel: LoginViewModel by viewModels()
+
     override fun getViewBinding(): ActLoginBinding {
         return ActLoginBinding.inflate(layoutInflater)
     }
 
     override fun initViews() {
-        // No views to initialize for now
+        
     }
 
     override fun initEvents() {
@@ -23,9 +27,7 @@ class LoginAct : BaseActivity<ActLoginBinding>() {
         binding.tvSignUp.setOnClickListener { handleRegister() }
     }
 
-    override fun initObservers() {
-        // No observers to initialize for now
-    }
+    override fun initObservers() {}
 
     private fun handleLogin() {
         val intent = Intent(this, MainActivity::class.java)

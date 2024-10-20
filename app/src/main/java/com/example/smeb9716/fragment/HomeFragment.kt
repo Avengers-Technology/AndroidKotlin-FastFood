@@ -8,7 +8,6 @@ import com.denzcoskun.imageslider.constants.ScaleTypes
 import com.example.smeb9716.activities.NotificationAct
 import com.example.smeb9716.databinding.FragmentHomeBinding
 import com.example.smeb9716.foundation.BaseFragment
-import com.example.smeb9716.utils.Utils
 import com.example.smeb9716.viewmodel.UserViewModel
 
 class HomeFragment: BaseFragment<FragmentHomeBinding>() {
@@ -21,6 +20,10 @@ class HomeFragment: BaseFragment<FragmentHomeBinding>() {
         return FragmentHomeBinding.inflate(inflater, container, false)
     }
 
+    override fun initViews(binding: FragmentHomeBinding) {
+        showImageSlider()
+    }
+
     override fun initEvents() {
         binding.headerHome.imvNotification.setOnClickListener {
             openNotificationAct()
@@ -28,19 +31,11 @@ class HomeFragment: BaseFragment<FragmentHomeBinding>() {
     }
 
     override fun initObservers() {
-        userViewModel.users.observe(viewLifecycleOwner) { res ->
-            Utils.showToastSystem(requireContext(), res?.size.toString())
-        }
-
         userViewModel.error.observe(viewLifecycleOwner) {
 
         }
     }
 
-    override fun initViews(binding: FragmentHomeBinding) {
-        showImageSlider()
-        userViewModel.getUsers()
-    }
 
     private fun showImageSlider() {
         try {

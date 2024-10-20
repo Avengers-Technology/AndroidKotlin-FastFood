@@ -1,25 +1,16 @@
 package com.example.smeb9716.viewmodel
 
 import android.app.Application
-import android.util.Log
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.viewModelScope
 import com.denzcoskun.imageslider.constants.ScaleTypes
 import com.denzcoskun.imageslider.models.SlideModel
 import com.example.smeb9716.R
 import com.example.smeb9716.foundation.BaseViewModel
-import com.example.smeb9716.model.ErrorMessage
-import com.example.smeb9716.model.User
-import kotlinx.coroutines.launch
+
 
 class UserViewModel(application: Application) : BaseViewModel(application) {
     companion object {
         private val TAG = UserViewModel::class.java.simpleName
     }
-
-    private val _users = MutableLiveData<List<User>?>()
-    val users: LiveData<List<User>?> = _users
 
     private val imageUrl1 = "https://static3.bigstockphoto.com/4/2/3/large1500/324149785.jpg"
     private val imageUrl2 = "https://images.all-free-download.com/images/graphiclarge/fast_food_banner_template_elegant_contrast_6929952.jpg"
@@ -36,22 +27,4 @@ class UserViewModel(application: Application) : BaseViewModel(application) {
             SlideModel(imageUrl5, application.getString(R.string.slider_5))
         )
     )
-
-
-
-    fun getUsers() {
-        viewModelScope.launch {
-            try {
-                val response = apiRepository.getUsers()
-                response.let {
-                    _users.postValue(response)
-                }
-            } catch (e: Exception) {
-                // Handle error
-                Log.e(TAG, "Error fetching users", e)
-                error.postValue(ErrorMessage(e.message))
-            }
-        }
-    }
-
 }
