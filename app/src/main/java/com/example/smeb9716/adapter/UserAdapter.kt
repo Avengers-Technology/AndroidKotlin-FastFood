@@ -17,7 +17,7 @@ class UserAdapter(
     }
 
     override fun bind(binding: ItemUserBinding, item: User, position: Int) {
-        binding.tvName.text = item.title
-        binding.tvEmail.text = item.body
+        binding.tvName.text = "item.title"
+        binding.tvEmail.text = "item.body"
     }
 }

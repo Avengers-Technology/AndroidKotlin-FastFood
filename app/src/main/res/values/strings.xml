@@ -8,11 +8,11 @@
     <string name="favorite">Favorite</string>
     <string name="bookmark">Bookmark</string>
     <string name="profile">Profile</string>
-    <string name="login">Login</string>
-    <string name="enter_email">Enter Email</string>
-    <string name="enter_password">Enter Password</string>
+    <string name="login">Đăng nhập</string>
+    <string name="enter_email">Nhập email</string>
+    <string name="enter_password">Nhập mật khẩu</string>
     <string name="register">Register</string>
-    <string name="have_an_account">Don\'t have an account? </string>
+    <string name="have_an_account">Bạn chưa có tài khoản!</string>
     <string name="enter_name">Enter Name</string>
     <string name="enter_phone_number">Enter Phone Number</string>
     <string name="re_enter_password">Re-enter password</string>
@@ -30,5 +30,12 @@
     <string name="slider_3">Come to Fast Food Delight to experience.</string>
     <string name="slider_4">Fast Food Delight - the perfect destination.</string>
     <string name="slider_5">With fresh ingredients and special recipes.</string>
+    <string name="title_splash">NaFood - Take it easyyyy!</string>
+    <string name="welcome_login">Chào mừng quay lại! Điền thông tin đăng nhập</string>
+    <string name="title_email">Email</string>
+    <string name="title_password">"Mật khẩu "</string>
+    <string name="forgot_password">Quên mật khẩu ?</string>
+    <string name="policy">Qua việc đăng nhập tài khoản, bạn đồng ý với các <font color='#007FF3'>Điều khoản sử dụng</font> và <font color='#007FF3'>Chính sách bảo mật</font> của chúng tôi</string>
+    <string name="register_now">Đăng ký ngay</string>
 
 </resources>
