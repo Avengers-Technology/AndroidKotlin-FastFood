@@ -3,9 +3,8 @@ package com.example.smeb9716
 import androidx.fragment.app.Fragment
 import com.example.smeb9716.databinding.ActivityMainBinding
 import com.example.smeb9716.foundation.BaseActivity
-import com.example.smeb9716.foundation.BaseDialog
-import com.example.smeb9716.fragment.BookmarkFragment
-import com.example.smeb9716.fragment.FavoriteFragment
+import com.example.smeb9716.fragment.NotificationFragment
+import com.example.smeb9716.fragment.GiftFragment
 import com.example.smeb9716.fragment.HomeFragment
 import com.example.smeb9716.fragment.ProfileFragment
 
@@ -31,12 +30,12 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
                     setCurrentFragment(HomeFragment())
                     true
                 }
-                R.id.bottomBarFavorite -> {
-                    setCurrentFragment(FavoriteFragment())
+                R.id.bottomBarGift -> {
+                    setCurrentFragment(GiftFragment())
                     true
                 }
-                R.id.bottomBarBookmark -> {
-                    setCurrentFragment(BookmarkFragment())
+                R.id.bottomBarNotification -> {
+                    setCurrentFragment(NotificationFragment())
                     true
                 }
                 R.id.bottomBarProfile -> {

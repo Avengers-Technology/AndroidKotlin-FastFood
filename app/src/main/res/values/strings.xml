@@ -4,10 +4,10 @@
     <string name="cancel">Cancel</string>
     <string name="confirm">Confirm</string>
 
-    <string name="home">Home</string>
-    <string name="favorite">Favorite</string>
-    <string name="bookmark">Bookmark</string>
-    <string name="profile">Profile</string>
+    <string name="home">Trang chủ</string>
+    <string name="gift">Kho quà</string>
+    <string name="notification">Thông báo</string>
+    <string name="profile">Cá nhân</string>
     <string name="login">Đăng nhập</string>
     <string name="enter_email">Nhập email</string>
     <string name="enter_password">Nhập mật khẩu</string>
@@ -19,7 +19,6 @@
     <string name="have_you_created_an_account_yet">Bạn đã có tài khoản !</string>
     <string name="read">Read</string>
     <string name="un_read">Unread</string>
-    <string name="notification">Notification</string>
     <string name="change_password">Change Password</string>
     <string name="help"><![CDATA[Help & Support]]></string>
     <string name="privacy">Privacy</string>

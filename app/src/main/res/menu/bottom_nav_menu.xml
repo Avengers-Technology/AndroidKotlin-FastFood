@@ -5,12 +5,12 @@
         android:title="@string/home"
         android:icon="@drawable/selector_home_main"/>
     <item
-        android:id="@+id/bottomBarFavorite"
-        android:title="@string/favorite"
-        android:icon="@drawable/selector_favorite_main"/>
+        android:id="@+id/bottomBarGift"
+        android:title="@string/gift"
+        android:icon="@drawable/selector_gift_main"/>
     <item
-        android:id="@+id/bottomBarBookmark"
-        android:title="@string/bookmark"
+        android:id="@+id/bottomBarNotification"
+        android:title="@string/notification"
         android:icon="@drawable/selector_bookmark_main"/>
 
     <item
