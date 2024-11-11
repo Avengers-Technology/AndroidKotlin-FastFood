@@ -11,12 +11,12 @@
     <string name="login">Đăng nhập</string>
     <string name="enter_email">Nhập email</string>
     <string name="enter_password">Nhập mật khẩu</string>
-    <string name="register">Register</string>
+    <string name="register">Đăng ký</string>
     <string name="have_an_account">Bạn chưa có tài khoản!</string>
-    <string name="enter_name">Enter Name</string>
-    <string name="enter_phone_number">Enter Phone Number</string>
-    <string name="re_enter_password">Re-enter password</string>
-    <string name="have_you_created_an_account_yet">Have you created an account yet? </string>
+    <string name="enter_name">Nhập họ và tên</string>
+    <string name="enter_phone_number">Nhập số điện thoại</string>
+    <string name="re_enter_password">Nhập lại mật khẩu</string>
+    <string name="have_you_created_an_account_yet">Bạn đã có tài khoản !</string>
     <string name="read">Read</string>
     <string name="un_read">Unread</string>
     <string name="notification">Notification</string>
@@ -37,5 +37,9 @@
     <string name="forgot_password">Quên mật khẩu ?</string>
     <string name="policy">Qua việc đăng nhập tài khoản, bạn đồng ý với các <font color='#007FF3'>Điều khoản sử dụng</font> và <font color='#007FF3'>Chính sách bảo mật</font> của chúng tôi</string>
     <string name="register_now">Đăng ký ngay</string>
+    <string name="title_require_input_register">Hãy điền các thông tin cần thiết vào các ô phía dưới</string>
+    <string name="label_name">Họ và tên</string>
+    <string name="label_phone_number">Số điện thoại</string>
+    <string name="re_password">Nhập lại mật khẩu</string>
 
 </resources>
